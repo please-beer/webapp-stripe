@@ -1,0 +1,25 @@
+{
+  "name": "webapp-stripe",
+  "version": "1.0.0",
+  "description": "Stripe microservice",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "env NODE_PATH=\"app/\" mocha tests/unit/**/*.js"
+  },
+  "author": "Paolo Scanferla <paolo.scanferla@mondora.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.16",
+    "express": "^4.12.3",
+    "meteor-wapi": "^0.2.0",
+    "mongodb": "^2.0.25",
+    "ramda": "^0.13.0",
+    "stripe": "^3.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^5.2.0",
+    "should-promised": "^0.2.0",
+    "sinon": "^1.14.1"
+  }
+}
