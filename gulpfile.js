@@ -1,9 +1,10 @@
-var bs     = require("browser-sync");
-var sh     = require("child_process").execSync;
-var fs     = require("fs");
-var gulp   = require("gulp");
-var mocha  = require("gulp-spawn-mocha");
-var mkdirp = require("mkdirp");
+var bs      = require("browser-sync");
+var sh      = require("child_process").execSync;
+var fs      = require("fs");
+var gulp    = require("gulp");
+var ghPages = require("gulp-gh-pages");
+var mocha   = require("gulp-spawn-mocha");
+var mkdirp  = require("mkdirp");
 
 /*
 *   Task to run unit tests
