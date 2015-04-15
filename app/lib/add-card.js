@@ -9,7 +9,7 @@ module.exports = function addCard (cardToken) {
         */
         .then(function () {
             return this.stripe.customers.createSource(this.user.stripeCustomer.id, {
-                  source: cardToken
+                source: cardToken
             });
         })
         /* Normalize errors */
