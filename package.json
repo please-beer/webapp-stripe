@@ -12,12 +12,13 @@
   "dependencies": {
     "bluebird": "^2.9.16",
     "express": "^4.12.3",
-    "meteor-wapi": "^0.2.0",
+    "meteor-wapi": "^0.3.1",
     "mongodb": "^2.0.25",
     "ramda": "^0.13.0",
     "stripe": "^3.3.4"
   },
   "devDependencies": {
+    "body-parser": "^1.14.2",
     "browser-sync": "^2.6.4",
     "coveralls": "^2.11.2",
     "gulp": "^3.8.11",
